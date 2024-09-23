@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Search Engine</h1>
+        <div class="form-group">
+            <label for="search-input" class="text-white">Search Keywords:</label>
+            <input type="text" class="form-control" id="search-input" placeholder="Enter keywords...">
+        </div>
+        <button class="btn btn-primary btn-block mb-2" id="search-button">Search</button>
+        <button class="btn btn-danger btn-block" id="clear-button">Clear History</button>
+        <h2 class="mt-4 text-white">Search History:</h2>
+        <ul class="list-unstyled" id="search-history"></ul>
+        <div class="no-history" id="no-history-message">No search history yet.</div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
